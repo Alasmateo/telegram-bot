@@ -54,7 +54,16 @@ def user_menu():
     kb.button(text="📦 Мои пакеты", callback_data="my_packages")
     kb.button(text="🛒 Купить пакет", callback_data="buy_menu")
     kb.adjust(1)
+    kb.button(text="📩 Отправить заявку", callback_data="send_request")
     kb.button(text="🎁 Активировать промокод", callback_data="activate_promo")
+    return kb.as_markup()
+
+def owner_menu():
+    kb = InlineKeyboardBuilder()
+    kb.button(text="➕ Создать промокод", callback_data="create_promo")
+    kb.button(text="🔧 Техперерыв", callback_data="toggle_maintenance")
+    kb.button(text="📩 Заявки", callback_data="view_requests")
+    kb.adjust(1)
     return kb.as_markup()
 
 def buy_menu():
