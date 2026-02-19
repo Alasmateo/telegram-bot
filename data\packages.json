@@ -1,0 +1,16 @@
+[
+  {
+    "id": "vip",
+    "name": "VIP",
+    "description": "VIP доступ",
+    "price": 50,
+    "days": 30
+  },
+  {
+    "id": "premium",
+    "name": "PREMIUM",
+    "description": "Максимальные возможности",
+    "price": 100,
+    "days": 60
+  }
+]
