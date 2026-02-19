@@ -20,6 +20,8 @@ BOT_TOKEN = os.getenv("8345555276:AAGQZOZ4lzDtO84oUDBsIv2rP4E_42JPuBk")  # Railw
 OWNER_ID = 6560956429  # ТВОЙ TG ID
 
 DATA_DIR = "data"
+SYSTEM_FILE = f"{DATA_DIR}/system.json"
+REQUESTS_FILE = f"{DATA_DIR}/requests.json"
 USERS_FILE = f"{DATA_DIR}/users.json"
 PROMO_FILE = f"{DATA_DIR}/promocodes.json"
 PACKAGES_FILE = f"{DATA_DIR}/packages.json"
