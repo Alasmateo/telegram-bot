@@ -21,6 +21,7 @@ OWNER_ID = 6560956429  # ТВОЙ TG ID
 
 DATA_DIR = "data"
 USERS_FILE = f"{DATA_DIR}/users.json"
+PROMO_FILE = f"{DATA_DIR}/promocodes.json"
 PACKAGES_FILE = f"{DATA_DIR}/packages.json"
 PAYMENTS_FILE = f"{DATA_DIR}/payments.json"
 
