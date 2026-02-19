@@ -52,6 +52,7 @@ def user_menu():
     kb.button(text="📦 Мои пакеты", callback_data="my_packages")
     kb.button(text="🛒 Купить пакет", callback_data="buy_menu")
     kb.adjust(1)
+    kb.button(text="🎁 Активировать промокод", callback_data="activate_promo")
     return kb.as_markup()
 
 def buy_menu():
